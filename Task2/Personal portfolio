@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hey there! I'm Yakshi Garg, a passionate web developer who thrives on crafting unique and functional digital experiences. I fell in love with web development as it beautifully combines my love for design and problem-solving.
+
+            With a keen eye for detail and a dedication to creating user-centric designs, I specialize in front-end development, ensuring that every line of code I write enhances the user's interaction with a website. I'm constantly exploring new technologies and trends to stay at the forefront of the ever-evolving web landscape.
+            
+            When I'm not immersed in code, you might find me sketching interface designs or exploring the latest in UX/UI trends. I strongly believe that great design goes beyond aesthetics; it's about enhancing the way users interact with the digital world.
+            
+            I've had the pleasure of working on various projects, from e-commerce sites to interactive web applications. My goal is to not just build websites but to craft intuitive, engaging, and accessible digital experiences that leave a lasting impact.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Netflix clone </h3>
+            <p>The Netflix clone project was a personal endeavor aimed at replicating the user interface and experience of the popular streaming platform, Netflix. Leveraging HTML, CSS, and JavaScript, this project focused on creating a basic yet functional representation of Netflix's front-end.</p>
+            <h3>Weather application</h3>
+            <p>The Weather App project was a dynamic web-based application aimed at providing real-time weather information to users based on their location or a specific city. Leveraging HTML, CSS, and JavaScript, along with an API from OpenWeatherMap, this project offered a user-friendly interface for accessing weather forecasts.</p>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
