@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather in Different Cities</title>
+    <link rel="stylesheet" type="text/css" href="2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather in Different Cities</h1>
+        <select id="cities" onchange="getWeather()">
+            <option value="London">London</option>
+            <option value="New York">New York</option>
+            <option value="Tokyo">Tokyo</option>
+            <!-- Add more cities as needed -->
+        </select>
+        <div id="weather-info"></div>
+    </div>
+
+    <script src="3.js"></script>
+</body>
+</html>
